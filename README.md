@@ -1,4 +1,4 @@
-# activity_01
+# B5-Extension-Project
 
 ## Project setup
 ```
