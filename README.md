@@ -1,6 +1,6 @@
 # B5-Extension-Project | Welcome to my repository ✌
 
-<p align="justify">This repository is a portifolio of my Extension Project at Unifil, which you can check on my other repository <a href="https://github.com/guilherme-mattos-conde/Rpg-Quiz-Game">Rpg-Quiz-Game</a>. You can see the result by <a href="https://guilherme-mattos-conde.github.io/B5-Extension-Project/">clicking here</a>.</p>
+<p align="justify">This repository is a portfolio of my Extension Project at Unifil, which you can check out in my other repository, <a href="https://github.com/guilherme-mattos-conde/Rpg-Quiz-Game">Rpg-Quiz-Game</a>. You can view the result by clicking <a href="https://guilherme-mattos-conde.github.io/B5-Extension-Project/">here</a>.</p>
 
 ## 🚀 Tecnologias Usadas
 
