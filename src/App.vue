@@ -8,7 +8,7 @@
         <Repositorio id="repositorio"/>
         <Rodape />
         <div v-if="seta" id="botao-voltar" @click="scrollToTop">
-			<img src="/images/seta-cima.png">
+			<img src="../public/images/seta-cima.png">
 		</div>
     </div>
 </template>

@@ -4,9 +4,9 @@
         <div class="membros">
             <div class="membro" v-for="membro in membros" :key="membro.nome">
                 <div class="imagens">
-                    <img class="foto" :src="'/images/' + membro.nome.toLowerCase().replace(/\s+/g, '-') + '.png'"
-                        alt="Guilherme Mattos" />
-                    <a :href="membro.github" target="blank"><img class="github" src="/images/github.png"></img></a>
+                    <img class="foto" :src="`/B5-Extension-Project/images/${membro.nome.toLowerCase().replace(/\s+/g, '-')}.png`"
+                        :alt="membro.nome" />
+                    <a :href="membro.github" target="blank"><img class="github" src="../../public/images/github.png"></img></a>
                 </div>
                 <div class="informacoes">
                     <p class="nome">{{ membro.nome }}</p>

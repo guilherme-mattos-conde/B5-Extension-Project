@@ -4,10 +4,10 @@
         <div>
             <p class="pgf">O projeto é um jogo de perguntas e respostas com temática RPG. Os jogadores escolhem personagens e se
             enfrentam em batalhas baseadas em turnos, respondendo perguntas de múltipla escolha.</p>
-            <img class="img" src="/images/tela-inicial.png" alt="">
+            <img class="img" src="../../public/images/tela-inicial.png" alt="">
         </div>
         <div>
-            <img class="img" src="/images/selecao-personagem.png" alt="">
+            <img class="img" src="../../public/images/selecao-personagem.png" alt="">
             <p class="pgf">Foi escolhido esse tema por sua capacidade de unir diversão e aprendizado, tornando o processo educacional
             mais atrativo para estudantes.</p>
         </div>
@@ -15,7 +15,7 @@
             <p class="pgf">A extensão curricular é uma ponte entre o conhecimento acadêmico e sua aplicação prática na sociedade. Este
             projeto integra conceitos aprendidos em aula, como lógica, programação e design, aplicando-os em um produto
             real.</p>
-            <img class="img" src="/images/selecao-habilidade.png" alt="">
+            <img class="img" src="../../public/images/selecao-habilidade.png" alt="">
         </div>
     </section>
 </template>

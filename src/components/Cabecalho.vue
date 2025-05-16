@@ -1,7 +1,7 @@
 <template>
     <section class="banner">
         <header>
-            <a href="https://unifil.br/" target="blank"><img src="/images/logo-unifil.png" alt="Logo UniFil" height="60" /></a>
+            <a href="https://unifil.br/" target="blank"><img src="../../public/images/logo-unifil.png" alt="Logo UniFil" height="60" /></a>
             <ul class="menu">
                 <a href="#apresentacao"><li>Apresentação</li></a>
                 <a href="#quem-somos"><li>Quem Somos</li></a>

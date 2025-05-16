@@ -2,7 +2,7 @@
     <section>
         <h2>Comunidade</h2>
         <div>
-            <img class="img" src="/images/comunidade.jpg" alt="">
+            <img class="img" src="../../public/images/comunidade.jpg" alt="">
             <p class="pgf"><strong>Público-alvo:</strong> estudantes com mais de 10 anos, especialmente os interessados em
                 jogos de RPG
                 e desafios de perguntas.
