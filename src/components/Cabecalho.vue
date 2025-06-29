@@ -7,6 +7,7 @@
                 <a href="#quem-somos"><li>Quem Somos</li></a>
                 <a href="#tema"><li>Tema do Projeto</li></a>
                 <a href="#comunidade"><li>Comunidade</li></a>
+                <a href="#documentacao"><li>Documentação</li></a>
                 <a href="#repositorio"><li>Repositório</li></a>
             </ul>
         </header>
