@@ -4,7 +4,7 @@
         <div class="membros">
             <div class="membro" v-for="membro in membros" :key="membro.nome">
                 <div class="imagens">
-                    <img class="foto" :src="`/B5-Extension-Project/images/${membro.nome.toLowerCase().replace(/\s+/g, '-')}.png`"
+                    <img class="foto" :src="`/B5-Extension-Project/images/${membro.img}`"
                         :alt="membro.nome" />
                     <a :href="membro.github" target="blank"><img class="github" src="../../public/images/github.png"></img></a>
                 </div>
@@ -18,36 +18,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-
-const membros = ref([
-    {
-        nome: "Guilherme Marobo Martins",
-        curso: "Eng. de Software",
-        github: "https://github.com/GuiMarobo",
-    },
-    {
-        nome: "Guilherme Mattos Conde",
-        curso: "Eng. de Software",
-        github: "https://github.com/guilherme-mattos-conde",
-    },
-    {
-        nome: "João Gabriel de Oliveira",
-        curso: "Eng. de Software",
-        github: "https://github.com/Doxzin",
-    },
-    {
-        nome: "João Gabriel Macedo",
-        curso: "Eng. de Software",
-        github: "https://github.com/Macedo72",
-    },
-    {
-        nome: "Felipe Pastorello Rocha",
-        curso: "Eng. de Software",
-        github: "https://github.com/Felipe-Pastorello ",
-    }
-]);
-
+import { membros } from "../mocks/membros.ts";
 </script>
 
 <style scoped>

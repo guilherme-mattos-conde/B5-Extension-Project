@@ -23,12 +23,12 @@ const documentos = ref([
     {
         nome: "Diagrama de Caso de Uso",
         descricao: "Ilustra graficamente as interações entre usuários (atores) e as funcionalidades do sistema (casos de uso). Ele é importante para esclarecer como o sistema será usado e as funcionalidades necessárias.",
-        link: "https://drive.google.com/file/d/1ASfxj055Zo3cEA1uXM-bbozldPkUc88l/view?usp=sharing",
+        link: "https://drive.google.com/file/d/19R69Uqo_zYm99a8gAEcGTkIgTM9GDvUp/view?usp=sharing",
     },
     {
-        nome: "MVP (Minimum Viable Product)",
-        descricao: "É a versão mais simples do produto com funcionalidades essenciais para atender usuários iniciais. Ele é importante para validar a ideia no mercado real com o mínimo de esforço e risco.",
-        link: "https://www.figma.com/proto/h2oNYljQ2sjmtySNZZdi8s/MVP---Dungeons-and-Quiz?node-id=49-170&p=f&t=erxlZ4do3X5morWe-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=49%3A170&authuser=2",
+        nome: "Diagrama de Classes",
+        descricao: "Mostra a estrutura estática do sistema, representando classes, atributos, métodos e relacionamentos entre elas. Ele é importante para orientar a implementação do sistema em código.",
+        link: "https://drive.google.com/file/d/1uzK6LJJE7HchpLnffyJAgwiX871MioiE/view?usp=sharing",
     },
     {
         nome: "DER (Diagrama Entidade-Relacionamento)",
@@ -38,7 +38,12 @@ const documentos = ref([
     {
         nome: "Workflow (Fluxo de Trabalho)",
         descricao: "Representa a sequência de passos, tarefas e decisões em um processo específico. Ele é importante para otimizar processos, melhorar a eficiência e esclarecer responsabilidades e fluxo de informação.",
-        link: "https://drive.google.com/file/d/1YhmAVJDH7A6KWjGvDzf0SHcapqGQOPxm/view?usp=sharing",
+        link: "https://drive.google.com/file/d/14p-PBiLz-m_rOEoQcWJoPmIui09bPkNd/view?usp=sharing",
+    },
+    {
+        nome: "MVP (Minimum Viable Product)",
+        descricao: "É a versão mais simples do produto com funcionalidades essenciais para atender usuários iniciais. Ele é importante para validar a ideia no mercado real com o mínimo de esforço e risco.",
+        link: "https://www.figma.com/proto/h2oNYljQ2sjmtySNZZdi8s/MVP---Dungeons-and-Quiz?node-id=49-170&p=f&t=erxlZ4do3X5morWe-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=49%3A170&authuser=2",
     }
 ]);
 

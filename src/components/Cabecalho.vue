@@ -8,7 +8,7 @@
                 <a href="#tema"><li>Tema do Projeto</li></a>
                 <a href="#comunidade"><li>Comunidade</li></a>
                 <a href="#documentacao"><li>Documentação</li></a>
-                <a href="#repositorio"><li>Repositório</li></a>
+                <a href="https://guilherme-mattos-conde.github.io/Dungeons-Quiz/" target="_blank"><li><img src="../../public/images/btn_jogar.png" alt="Jogar"></li></a>
             </ul>
         </header>
         <div>
@@ -18,24 +18,6 @@
 </template>
 
 <style scoped>
-.menu {
-    display: flex;
-    list-style: none;
-
-    a {
-        text-decoration: none;
-        color: rgb(176, 176, 176);
-    }
-
-    li {
-        margin: 0 8px;
-        transition: .5s;
-    }
-    li:hover {
-        color: white;
-    }
-}
-
 .banner {
     background-image: url("/public/images/banner.png");
     background-position: center;
@@ -51,10 +33,34 @@
         color: white;
         padding: 10px 80px;
         text-align: center;
-        height: 80px;
 
         img {
             height: 45px;
+        }
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: rgb(176, 176, 176);
+        }
+
+        li {
+            margin: 0 8px;
+            transition: .5s;
+        }
+        li:hover {
+            color: white;
+        }
+
+        a img {
+            width: 180px;
+            height: auto;
         }
     }
 

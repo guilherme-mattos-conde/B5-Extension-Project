@@ -6,7 +6,6 @@
         <TemaProjeto id="tema"/>
         <Comunidade id="comunidade"/>
         <Documentacao id="documentacao"/>
-        <Repositorio id="repositorio"/>
         <Rodape />
         <div v-if="seta" id="botao-voltar" @click="scrollToTop">
 			<img src="../public/images/seta-cima.png">
@@ -21,7 +20,6 @@ import Apresentacao from './components/Apresentacao.vue'
 import QuemSomos from './components/QuemSomos.vue'
 import TemaProjeto from './components/TemaProjeto.vue'
 import Comunidade from './components/Comunidade.vue'
-import Repositorio from './components/Repositorio.vue'
 import Documentacao from "./components/Documentacao.vue";
 import Rodape from './components/Rodape.vue'
 
