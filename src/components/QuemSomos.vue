@@ -4,7 +4,7 @@
         <div class="membros">
             <div class="membro" v-for="membro in membros" :key="membro.nome">
                 <div class="imagens">
-                    <img class="foto" :src="`/B5-Extension-Project/images/${membro.img}`"
+                    <img class="foto" :src="`/B5-Extension-Project/images/membros/${membro.img}`"
                         :alt="membro.nome" />
                     <a :href="membro.github" target="blank"><img class="github" src="../../public/images/github.png"></img></a>
                 </div>
